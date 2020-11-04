@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pylab as plt
 
 #dataset
-data = pd.read_excel("data.xlsx")
+data = pd.read_excel("EastWestAirlines.xlsx")
 
 data.describe()
 

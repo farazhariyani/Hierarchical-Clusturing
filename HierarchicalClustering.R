@@ -3,7 +3,7 @@ library(readxl)
 
 #load dataset
 #data <- read_excel(file.choose())  #to choose a file from the system
-data <- read_excel("data.xlsx")
+data <- read_excel("EastWestAirlines.xlsx")
 
 summary(data)
 
